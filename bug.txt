@@ -1,0 +1,14 @@
+build passed,base in Ubuntu Jammy Jellyfish (development branch) x86_64 
+
+run(gdb):
+
+
+Starting program: /media/bzy/Data(linux)/C++/luogu/P1032/a.out 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+
+Program received signal SIGABRT, Aborted.
+__pthread_kill_implementation (no_tid=0, signo=6, threadid=140737348142016) at ./nptl/pthread_kill.c:44
+44      ./nptl/pthread_kill.c: 没有那个文件或目录.
